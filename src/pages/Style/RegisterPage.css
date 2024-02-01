@@ -1,0 +1,40 @@
+.container__register {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 10em;
+  }
+  
+  .register__name {
+    text-align: center;
+  }
+  
+  .register__formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*gap: 0.5em;*/
+  }
+  
+  .register__label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.2em;
+    /*gap: 0.5em;*/
+  }
+  
+  input, select, button {
+    padding: 10px;
+    margin-top: 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #d93f3f;
+    color: white;
+    border: none;
+  }
+  

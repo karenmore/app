@@ -1,0 +1,28 @@
+.filter__search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5em;
+    margin-top: 7em;
+}
+
+.filter__name {
+    width: 100%;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-top: 0.3em;
+    border-radius: 0.8em;
+    border: 3px solid green;
+}
+
+.filter__btn {
+    width: 35%;
+    font-size: 0.8em;
+    font-weight: 700;
+    /*padding: 5px 50px;*/
+    border: none;
+    color: #fff;
+    background-color: #d93f3f;
+    cursor: pointer;
+    border-radius: 0.8em;
+}
